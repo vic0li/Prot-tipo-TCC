@@ -1,5 +1,3 @@
-# Protótipo TCC
-
 # Smart ICU Analytics
 
 Protótipo desenvolvido para o TCC:
