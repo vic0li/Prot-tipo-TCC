@@ -257,6 +257,9 @@ df = pd.DataFrame(dados)
 os.makedirs("data", exist_ok=True)
 
 df.to_csv(
-    "data/UTI_simulada_avancada2.csv",
+    "data/raw/UTI_simulada_avancada2.csv",
     index=False
 )
+
+print("Dataset gerado com sucesso!")
+print(df.head())
